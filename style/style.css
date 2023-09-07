@@ -18,7 +18,7 @@ body{
     width: 100%;
     height: 100vh;
     min-height: 100%;
-    background-image: url(/image/bg.png);
+    background-image: url(../image/bg.png);
     background-repeat:  no-repeat no-repeat;
     background-size:cover;
     background-position: center;
@@ -133,7 +133,7 @@ body{
     .block{
         height: 170vh;
         background-size: 100% auto;
-       background-image: url(/image/mobile-bg.png);
+       background-image: url(../image/mobile-bg.png);
        background-position: top;
     }
     .block-footer{
@@ -149,7 +149,7 @@ body{
 
 @media screen and (max-width:700px) {
     .block{
-        background-image: url(/image/mobile-bg.png);
+        background-image: url(../image/mobile-bg.png);
     }
     .coming{
         width: 200px;
@@ -195,7 +195,7 @@ body{
 
 @media screen and (max-width:376px) {
     .block{
-        background-image: url(/image/mobile-bg.png);
+        background-image: url(../image/mobile-bg.png);
         background-size: 100% auto;
         height: 100vh;
     }
